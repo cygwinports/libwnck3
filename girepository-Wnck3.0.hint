@@ -1,0 +1,6 @@
+category: Gnome
+requires: girepository-GLib2.0 girepository-Gtk3.0 libwnck3_0
+external-source: libwnck3
+sdesc: "GNOME Window Navigation Construction Kit (GObject Introspection data)"
+ldesc: "libwnck is Window Navigator Construction Kit, i.e. a library to 
+use for writing pagers and taskslists and stuff."

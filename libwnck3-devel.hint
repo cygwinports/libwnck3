@@ -1,0 +1,6 @@
+category: Gnome
+requires: libwnck3_0 libatk1.0-devel libcairo-devel libglib2.0-devel libgdk_pixbuf2.0-devel libgtk3-devel gettext libpango1.0-devel libstartup-notification1-devel libX11-devel libXRes-devel
+external-source: libwnck3
+sdesc: "GNOME Window Navigation Construction Kit (development)"
+ldesc: "libwnck is Window Navigator Construction Kit, i.e. a library to 
+use for writing pagers and taskslists and stuff."

@@ -3,6 +3,12 @@ inherit gnome2
 
 DESCRIPTION="GNOME Window Navigation Construction Kit"
 
+DEPEND="gnome-common gtk-doc
+	girepository(Gtk-3.0)
+	pkgconfig(gtk+-3.0)
+	pkgconfig(libstartup-notification-1.0)
+	pkgconfig(xres)"
+
 PKG_NAMES="${PN}_0 ${PN}-devel girepository-Wnck3.0"
 libwnck3_0_CONTENTS="usr/bin/*-3-0.dll usr/share/doc/ usr/share/locale/"
 libwnck3_devel_CONTENTS='--exclude=gir* usr/include/ usr/lib/ usr/share/gtk-doc/'

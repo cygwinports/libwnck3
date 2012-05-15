@@ -14,3 +14,5 @@ libwnck3_0_CONTENTS="usr/bin/*-3-0.dll usr/share/doc/ usr/share/locale/"
 libwnck3_devel_CONTENTS='--exclude=gir* usr/include/ usr/lib/ usr/share/gtk-doc/'
 girepository_Wnck3_0_CONTENTS="usr/*/gir*/Wnck-3.0.*"
 PKG_IGNORE="usr/bin/*.exe"
+
+KEEP_LA_FILES="none"

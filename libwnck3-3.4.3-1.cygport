@@ -1,7 +1,10 @@
 ORIG_PN="libwnck"
 inherit gnome2
 
-DESCRIPTION="GNOME Window Navigation Construction Kit"
+CATEGORY="Gnome"
+SUMMARY="GNOME Window Navigation Construction Kit"
+DESCRIPTION="libwnck is Window Navigator Construction Kit, i.e. a library to
+use for writing pagers and taskslists and stuff."
 
 DEPEND="gnome-common gtk-doc
 	girepository(Gtk-3.0)

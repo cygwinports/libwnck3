@@ -1,4 +1,0 @@
-category: Gnome
-sdesc: "GNOME Window Navigation Construction Kit (sources)"
-ldesc: "libwnck is Window Navigator Construction Kit, i.e. a library to 
-use for writing pagers and taskslists and stuff."

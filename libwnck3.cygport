@@ -2,7 +2,7 @@ ORIG_PN="libwnck"
 inherit gnome2
 
 NAME="libwnck3"
-VERSION=3.4.4
+VERSION=3.4.5
 RELEASE=1
 CATEGORY="GNOME"
 SUMMARY="GNOME Window Navigation Construction Kit"

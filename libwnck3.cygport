@@ -2,9 +2,9 @@ ORIG_PN="libwnck"
 inherit gnome2
 
 NAME="libwnck3"
-VERSION=3.4.5
+VERSION=3.4.6
 RELEASE=1
-CATEGORY="GNOME"
+CATEGORY="Libs"
 SUMMARY="GNOME Window Navigation Construction Kit"
 DESCRIPTION="libwnck is Window Navigator Construction Kit, i.e. a library to
 use for writing pagers and taskslists and stuff."
@@ -15,7 +15,7 @@ DEPEND="gnome-common gtk-doc
 	pkgconfig(libstartup-notification-1.0)
 	pkgconfig(xres)"
 
-PKG_NAMES="${PN}_0 ${PN}-devel girepository-Wnck3.0"
+PKG_NAMES="${NAME}_0 ${NAME}-devel girepository-Wnck3.0"
 libwnck3_0_CONTENTS="usr/bin/*-3-0.dll usr/share/doc/ usr/share/locale/"
 libwnck3_devel_CONTENTS='--exclude=gir* usr/include/ usr/lib/ usr/share/gtk-doc/'
 girepository_Wnck3_0_CONTENTS="usr/*/gir*/Wnck-3.0.*"
